@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Esther Kwashie</title>
+    <link rel="stylesheet" href="/styles/output.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/about.css">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav class="bg-[#222222] p-5 md:p-10 animate-fadeIn" role="navigation" aria-label="Main navigation">
+        <div class="flex gap-10 justify-end md:justify-center">
+            <ul class="hidden md:flex text-white gap-10 justify-center relative" role="menubar">
+                <li><a href="index.html" role="menuitem">HOME</a></li>
+                <li><a href="about.html" role="menuitem">ABOUT</a></li>
+                <li><a href="portfolio.html" role="menuitem">PORTFOLIO</a></li>
+                <li><a href="resume.html" role="menuitem">RESUME</a></li>
+                <li><a href="contact.html" role="menuitem">CONTACT</a></li>
+            </ul>
+            
+            <button id="menuBtn" class="z-10 md:hidden">
+                <svg class="bg-gray-100 text-gray-600 rounded p-2" width="45" height="45" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="z-10 md:hidden bg-[#222222] text-white fixed top-0 left-0 w-2/3 hidden" role="menu" aria-label="Mobile navigation">
+            <ul class="p-5" role="menu">
+                <li class="pb-5"><a href="index.html" role="menuitem">HOME</a><hr></li>
+                <li class="pb-5"><a href="about.html" role="menuitem">ABOUT</a><hr></li>
+                <li class="pb-5"><a href="portfolio.html" role="menuitem">PORTFOLIO</a><hr></li>
+                <li class="pb-5"><a href="resume.html" role="menuitem">RESUME</a><hr></li>
+                <li class="pb-5"><a href="contact.html" role="menuitem">CONTACT</a><hr></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section class="about-section bg-[#222222] text-white pt-14 px-10 md:px-20 md:flex gap-16">
+        <div class="image-container md:w-1/2 animate-slideInLeft">
+            <img src="images/heroImg1.png" alt="An image of Esther Kwashie" class="object-cover w-[100%]">
+        </div>
+        
+        <div class="content-container md:w-1/2 flex flex-col items-left justify-center space-y-6 animate-slideInRight">
+            <div class="title flex text-[30px] gap-2 md:pt-0 pt-5 text-white">
+                <span>About</span>
+                <span class="font-bold">Me</span>
+            </div>
+            
+            <h4 class="description text-[#858585] text-justify animate-fadeIn" style="animation-delay: 0.3s;">
+                A female developer with experience in front-end (React.js) and
+                back-end development(Nodejs, Express, MongoDB), leveraging expertise
+                in the above-mentioned technologies to create scalable, user-friendly
+                web applications.
+            </h4>
+            
+            <p class="text-[#858585] text-justify animate-fadeIn" style="animation-delay: 0.6s;">
+                Experienced in team work and delivering solutions that enhance user
+                experience. With a background in Computer Science and Physics, I excel
+                at turning complex problems into innovative, efficient web solutions
+                that drive business success.
+            </p>
+            
+            <div class="button-group flex gap-3 animate-fadeIn" style="animation-delay: 0.9s;">
+                <a href="mailto:estherkwashie77@gmail.com" class="hire-btn rounded-full bg-[#BAC964] px-5 py-2 hover:bg-[#9ba752] transition-colors">
+                    HIRE ME
+                </a>
+                <a href="/images/Esther Kwashie - Developer (2).pdf" download class="cv-btn bg-[#858585] rounded-full px-5 py-2 hover:bg-[#6e6e6e] transition-colors">
+                    DOWNLOAD CV
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="/scripts/script.js"></script>
+    <script src="/scripts/about.js"></script>
+</body>
+</html>

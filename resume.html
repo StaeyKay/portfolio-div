@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Esther Kwashie</title>
+    <link rel="stylesheet" href="/styles/output.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/resume.css">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav class="bg-[#222222] p-5 md:p-10">
+        <div class="flex gap-10 justify-end md:justify-center">
+            <ul class="hidden md:flex text-white gap-10 justify-center relative">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="resume.html">RESUME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            
+            <button id="menuBtn" class="z-10 md:hidden">
+                <svg class="bg-gray-100 text-gray-600 rounded p-2" width="45" height="45" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="z-10 md:hidden bg-[#222222] text-white fixed top-0 left-0 w-2/3 hidden">
+            <ul class="p-5">
+                <li class="pb-5"><a href="index.html">HOME</a><hr></li>
+                <li class="pb-5"><a href="about.html">ABOUT</a><hr></li>
+                <li class="pb-5"><a href="portfolio.html">PORTFOLIO</a><hr></li>
+                <li class="pb-5"><a href="resume.html">RESUME</a><hr></li>
+                <li class="pb-5"><a href="contact.html">CONTACT</a><hr></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Resume Section -->
+    <section class="bg-[#222222] gap-10 text-white px-10 md:px-20 py-10">
+        <div class="flex justify-center mb-12">
+            <div class="text-white flex text-[30px] gap-2">
+                <span>My</span>
+                <span class="font-bold">Resume</span>
+            </div>
+        </div>
+
+        <div class="gap-10 md:grid md:grid-cols-2">
+            <!-- Education Section -->
+            <div class="space-y-10">
+                <h3 class="text-2xl">Education</h3>
+                <div class="space-y-10">
+                    <!-- Education Card 1 -->
+                    <div class="bg p-8 rounded-2xl space-y-3">
+                        <p class="text-[12px]">May 2024 - August 2024</p>
+                        <h4 class="text-[#BAC964] text-[20px]">Web Development Trainee</h4>
+                        <p class="text-[#FFFFFF66] text-[16px]">Core Skills: HTML, CSS, JavaScript, MongoDB, Express, Nodejs</p>
+                        <p class="text-[#858585] text-[16px]">MEST Africa</p>
+                    </div>
+
+                    <!-- Education Card 2 -->
+                    <div class="bg p-8 rounded-2xl space-y-3">
+                        <p class="text-[12px]">September 2020 - June 2022</p>
+                        <h4 class="text-[#BAC964] text-[20px]">Master in Nuclear Science and Technologies</h4>
+                        <p class="text-[#FFFFFF66] text-[16px]">Core Skills: Research, Problem-solving</p>
+                        <p class="text-[#858585] text-[16px]">Tomsk Polytechnic University</p>
+                    </div>
+
+                    <!-- Education Card 3 -->
+                    <div class="bg p-8 rounded-2xl space-y-3">
+                        <p class="text-[12px]">September 2014 - May 2018</p>
+                        <h4 class="text-[#BAC964] text-[20px]">Bachelor of Science in Physics with Computer Science</h4>
+                        <p class="text-[#FFFFFF66] text-[16px]">Core Skills: Analytical thinking, Programming fundamentals, Problem-solving</p>
+                        <p class="text-[#858585] text-[16px]">University of Ghana Legon</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experience Section -->
+            <div class="space-y-10">
+                <h3 class="text-2xl pt-8 md:pt-0">Experience</h3>
+                <div class="space-y-10">
+                    <!-- Experience Card 1 -->
+                    <div class="bg p-8 rounded-2xl space-y-3">
+                        <p class="text-[12px]">January 2024 - Present</p>
+                        <h4 class="text-[#BAC964] text-[20px]">Junior Frontend Developer</h4>
+                        <p class="text-[#FFFFFF66] text-[16px]">Core Skills: Reactjs, JavaScript</p>
+                        <p class="text-[#858585] text-[16px]">Heyphord I.T Solutions</p>
+                    </div>
+
+                    <!-- Experience Card 2 -->
+                    <div class="bg p-8 rounded-2xl space-y-3">
+                        <p class="text-[12px]">August 2024 - August 2024</p>
+                        <h4 class="text-[#BAC964] text-[20px]">Intern</h4>
+                        <p class="text-[#FFFFFF66] text-[16px]">Core Skills: Nodejs, Express, MongoDB</p>
+                        <p class="text-[#858585] text-[16px]">Core Extreme Technologies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/scripts/script.js"></script>
+</body>
+</html>

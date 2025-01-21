@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Esther Kwashie</title>
+    <link rel="stylesheet" href="/styles/output.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/portfolio.css">
+</head>
+<body>
+    <!-- Navigation Section -->
+    <nav class="bg-[#222222] p-5 md:p-10">
+        <div class="flex gap-10 justify-end md:justify-center">
+            <ul class="hidden md:flex text-white gap-10 justify-center relative">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="resume.html">RESUME</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            
+            <button id="menuBtn" class="z-10 md:hidden">
+                <svg class="bg-gray-100 text-gray-600 rounded p-2" width="45" height="45" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="z-10 md:hidden bg-[#222222] text-white fixed top-0 left-0 w-2/3 hidden">
+            <ul class="p-5">
+                <li class="pb-5"><a href="index.html">HOME</a><hr></li>
+                <li class="pb-5"><a href="about.html">ABOUT</a><hr></li>
+                <li class="pb-5"><a href="portfolio.html">PORTFOLIO</a><hr></li>
+                <li class="pb-5"><a href="resume.html">RESUME</a><hr></li>
+                <li class="pb-5"><a href="contact.html">CONTACT</a><hr></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Portfolio Section -->
+    <section class="bg-[#222222] text-white p-10 md:p-20">
+        <div class="flex justify-center">
+            <div class="text-white flex text-[30px] gap-2 pb-12">
+                <span>Featured</span>
+                <span class="font-bold">Portfolio</span>
+            </div>
+        </div>
+        
+        <div class="flex flex-col md:flex-row gap-10">
+            <!-- Portfolio Item 1 -->
+            <div class="portfolio-item flex-1">
+                <a href="https://goldenheart.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <div class="portfolio-image-container">
+                        <img src="images/goldenHeart.webp" alt="Golden Heart Website" class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <p class="portfolio-description">Golden Heart Website</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Portfolio Item 2 -->
+            <div class="portfolio-item flex-1">
+                <a href="https://tryblogapp.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <div class="portfolio-image-container">
+                        <img src="images/newsBlog.jpg" alt="News Blog MockUp" class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <p class="portfolio-description">News Blog MockUp</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Portfolio Item 3 -->
+            <div class="portfolio-item flex-1">
+                <a href="https://susanaugustt.netlify.app/" target="_blank" rel="noopener noreferrer">
+                    <div class="portfolio-image-container">
+                        <img src="images/about.jpg" alt="Musician's Website" class="portfolio-image">
+                        <div class="portfolio-overlay">
+                            <p class="portfolio-description">Musician's Website</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="/scripts/script.js"></script>
+</body>
+</html>

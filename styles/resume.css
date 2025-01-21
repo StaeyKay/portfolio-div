@@ -1,0 +1,24 @@
+/* Resume styles */
+body {
+    background-color: #222222;
+}
+
+/* Card hover effect */
+.bg {
+    transition: transform 0.3s ease;
+    background-color: #333333;
+    
+}
+
+.bg:hover {
+    transform: translateY(-5px);
+    background-color: #333333;
+
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .space-y-10 > div:not(:last-child) {
+        margin-bottom: 2.5rem;
+    }
+}
