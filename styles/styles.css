@@ -2,6 +2,7 @@
     background-image: url('../images/heroImg1.png');
     background-position: center;
     background-size: cover;
+    overflow: hidden;
 }
 
 /* Smooth scroll behavior */
